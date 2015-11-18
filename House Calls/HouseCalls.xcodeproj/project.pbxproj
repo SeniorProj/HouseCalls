@@ -16,6 +16,7 @@
 		27C3E7951BFC0ECB002F67C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7931BFC0ECB002F67C8 /* Main.storyboard */; };
 		27C3E7971BFC0ECB002F67C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */; };
 		27C3E79A1BFC0ECB002F67C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */; };
+		3B97FC9C1BFC81FB0009DFEB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B97FC9B1BFC81FB0009DFEB /* menu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		27C3E7961BFC0ECB002F67C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C3E7991BFC0ECB002F67C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C3E79B1BFC0ECB002F67C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B97FC9B1BFC81FB0009DFEB /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		27C3E7831BFC0ECB002F67C8 = {
 			isa = PBXGroup;
 			children = (
+				3B97FC9B1BFC81FB0009DFEB /* menu.png */,
 				275087451BFC76B70030863E /* sam.jpg */,
 				275087491BFC78330030863E /* sam-pic.jpg */,
 				27C3E78E1BFC0ECB002F67C8 /* HouseCalls */,
@@ -149,6 +152,7 @@
 			files = (
 				27C3E79A1BFC0ECB002F67C8 /* LaunchScreen.storyboard in Resources */,
 				27C3E7971BFC0ECB002F67C8 /* Assets.xcassets in Resources */,
+				3B97FC9C1BFC81FB0009DFEB /* menu.png in Resources */,
 				27C3E7951BFC0ECB002F67C8 /* Main.storyboard in Resources */,
 				2750874A1BFC78330030863E /* sam-pic.jpg in Resources */,
 				275087461BFC76B70030863E /* sam.jpg in Resources */,
