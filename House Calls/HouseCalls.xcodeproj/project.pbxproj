@@ -18,6 +18,20 @@
 		27C3E79A1BFC0ECB002F67C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C3E7981BFC0ECB002F67C8 /* LaunchScreen.storyboard */; };
 		3B97FC9C1BFC81FB0009DFEB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B97FC9B1BFC81FB0009DFEB /* menu.png */; };
 		3B97FCA21BFC8E2B0009DFEB /* pre-r.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B97FCA11BFC8E2B0009DFEB /* pre-r.png */; };
+		3B97FCA61C0AF5740009DFEB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */; };
+		3B97FCA81C0AF5790009DFEB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCA71C0AF5790009DFEB /* CFNetwork.framework */; };
+		3B97FCAA1C0AF5800009DFEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCA91C0AF5800009DFEB /* CoreGraphics.framework */; };
+		3B97FCAC1C0AF5860009DFEB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCAB1C0AF5860009DFEB /* CoreLocation.framework */; };
+		3B97FCAE1C0AF58F0009DFEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCAD1C0AF58F0009DFEB /* QuartzCore.framework */; };
+		3B97FCB01C0AF5980009DFEB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCAF1C0AF5980009DFEB /* Security.framework */; };
+		3B97FCB21C0AF59D0009DFEB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB11C0AF59D0009DFEB /* StoreKit.framework */; };
+		3B97FCB41C0AF5A50009DFEB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB31C0AF5A50009DFEB /* SystemConfiguration.framework */; };
+		3B97FCB61C0AF5AD0009DFEB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB51C0AF5AD0009DFEB /* libz.tbd */; };
+		3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB71C0AF5B60009DFEB /* libsqlite3.tbd */; };
+		3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCB91C0AF5E00009DFEB /* Accounts.framework */; };
+		3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBB1C0AF5E50009DFEB /* Social.framework */; };
+		3B97FCBF1C0AF61B0009DFEB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */; };
+		3B97FCC01C0AF61B0009DFEB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B97FCBE1C0AF61B0009DFEB /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +50,20 @@
 		27C3E79B1BFC0ECB002F67C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B97FC9B1BFC81FB0009DFEB /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		3B97FCA11BFC8E2B0009DFEB /* pre-r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pre-r.png"; sourceTree = "<group>"; };
+		3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3B97FCA71C0AF5790009DFEB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3B97FCA91C0AF5800009DFEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B97FCAB1C0AF5860009DFEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3B97FCAD1C0AF58F0009DFEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3B97FCAF1C0AF5980009DFEB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3B97FCB11C0AF59D0009DFEB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3B97FCB31C0AF5A50009DFEB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3B97FCB51C0AF5AD0009DFEB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3B97FCB71C0AF5B60009DFEB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3B97FCB91C0AF5E00009DFEB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		3B97FCBB1C0AF5E50009DFEB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3B97FCBE1C0AF61B0009DFEB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B97FCBC1C0AF5E50009DFEB /* Social.framework in Frameworks */,
+				3B97FCBA1C0AF5E00009DFEB /* Accounts.framework in Frameworks */,
+				3B97FCB81C0AF5B60009DFEB /* libsqlite3.tbd in Frameworks */,
+				3B97FCB61C0AF5AD0009DFEB /* libz.tbd in Frameworks */,
+				3B97FCB41C0AF5A50009DFEB /* SystemConfiguration.framework in Frameworks */,
+				3B97FCB21C0AF59D0009DFEB /* StoreKit.framework in Frameworks */,
+				3B97FCB01C0AF5980009DFEB /* Security.framework in Frameworks */,
+				3B97FCBF1C0AF61B0009DFEB /* Bolts.framework in Frameworks */,
+				3B97FCAE1C0AF58F0009DFEB /* QuartzCore.framework in Frameworks */,
+				3B97FCAC1C0AF5860009DFEB /* CoreLocation.framework in Frameworks */,
+				3B97FCC01C0AF61B0009DFEB /* Parse.framework in Frameworks */,
+				3B97FCAA1C0AF5800009DFEB /* CoreGraphics.framework in Frameworks */,
+				3B97FCA81C0AF5790009DFEB /* CFNetwork.framework in Frameworks */,
+				3B97FCA61C0AF5740009DFEB /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +96,6 @@
 			children = (
 				275087381BFC66380030863E /* SWRevealViewController.h */,
 				275087391BFC66380030863E /* SWRevealViewController.m */,
-				275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -62,6 +103,7 @@
 		27C3E7831BFC0ECB002F67C8 = {
 			isa = PBXGroup;
 			children = (
+				3B97FCC11C0AF6200009DFEB /* Frameworks */,
 				3B97FC9B1BFC81FB0009DFEB /* menu.png */,
 				275087451BFC76B70030863E /* sam.jpg */,
 				275087491BFC78330030863E /* sam-pic.jpg */,
@@ -82,6 +124,7 @@
 		27C3E78E1BFC0ECB002F67C8 /* HouseCalls */ = {
 			isa = PBXGroup;
 			children = (
+				275087371BFC66370030863E /* HouseCalls-Bridging-Header.h */,
 				275087361BFC65D60030863E /* SWRevealViewController */,
 				27C3E78F1BFC0ECB002F67C8 /* AppDelegate.swift */,
 				27C3E7911BFC0ECB002F67C8 /* ViewController.swift */,
@@ -92,6 +135,27 @@
 				27C3E79B1BFC0ECB002F67C8 /* Info.plist */,
 			);
 			path = HouseCalls;
+			sourceTree = "<group>";
+		};
+		3B97FCC11C0AF6200009DFEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B97FCBD1C0AF61B0009DFEB /* Bolts.framework */,
+				3B97FCBE1C0AF61B0009DFEB /* Parse.framework */,
+				3B97FCBB1C0AF5E50009DFEB /* Social.framework */,
+				3B97FCB91C0AF5E00009DFEB /* Accounts.framework */,
+				3B97FCB71C0AF5B60009DFEB /* libsqlite3.tbd */,
+				3B97FCB51C0AF5AD0009DFEB /* libz.tbd */,
+				3B97FCB31C0AF5A50009DFEB /* SystemConfiguration.framework */,
+				3B97FCB11C0AF59D0009DFEB /* StoreKit.framework */,
+				3B97FCAF1C0AF5980009DFEB /* Security.framework */,
+				3B97FCAD1C0AF58F0009DFEB /* QuartzCore.framework */,
+				3B97FCAB1C0AF5860009DFEB /* CoreLocation.framework */,
+				3B97FCA91C0AF5800009DFEB /* CoreGraphics.framework */,
+				3B97FCA71C0AF5790009DFEB /* CFNetwork.framework */,
+				3B97FCA51C0AF5740009DFEB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarielSanchez.HouseCalls;
@@ -299,6 +367,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HouseCalls/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarielSanchez.HouseCalls;
