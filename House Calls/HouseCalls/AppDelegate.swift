@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         Parse.setApplicationId("AbrwvlJrK1RT9njJCd171OafuqFP6MYewzQEBCGm", clientKey: "S6VtaXwXh54ev09Vkv1EcpCZm6shsbjP2ji55pk5")
+        
+        /*let twilioSID = "AC674d685ee4f3246548bc79a539056aca"
+        let twilioSecret = "a10c9b4790dba27fa905597d35b3d4c2"
+        
+        //Note replace + = %2B , for To and From phone number
+        let fromNumber = "+17074160746"// actual number is +14803606445
+        let toNumber = "+17076889656"// actual number is +919152346132
+        let message = "Test message"
+        
+        // Build the request
+        let request = NSMutableURLRequest(URL: NSURL(string:"https://\(twilioSID):\(twilioSecret)@api.twilio.com/2010-04-01/Accounts/\(twilioSID)/SMS/Messages")!)
+        request.HTTPMethod = "POST"
+        request.HTTPBody = "From=\(fromNumber)&To=\(toNumber)&Body=\(message)".dataUsingEncoding(NSUTF8StringEncoding)
+        
+        // Build the completion block and send the request
+        NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: { (data, response, error) in
+            print("Finished")
+            if let data = data, responseDetails = NSString(data: data, encoding: NSUTF8StringEncoding) {
+                // Success
+                print("Response: \(responseDetails)")
+            } else {
+                // Failure
+                print("Error: \(error)")
+            }
+        }).resume()*/
+        
+        /*let twilioUsername = "AC674d685ee4f3246548bc79a539056aca"
+        let twilioPassword = "a10c9b4790dba27fa905597d35b3d4c2"
+        
+        let data = [
+            "To" : "+17076889656",
+            "From" : "+17074160746",
+            "Body" : "It works!"
+        ]
+        
+        Alamofire.request(.POST, "https://\(twilioUsername):\(twilioPassword)@api.twilio.com/2010-04-01/Accounts/\(twilioUsername)/Messages", parameters: data)
+            .responseData { response in
+                print(response.request)
+                print(response.response)
+                print(response.result)
+        }*/
         
         /*var testObject:PFObject = PFObject(className: "TestObject")
         testObject["foo"] = "bar"
