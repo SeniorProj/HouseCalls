@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        Parse.setApplicationId("AbrwvlJrK1RT9njJCd171OafuqFP6MYewzQEBCGm", clientKey: "S6VtaXwXh54ev09Vkv1EcpCZm6shsbjP2ji55pk5")
+        Parse.setApplicationId("hJ1PN1GRI2BjrJIJUIWEciU7wYYI9rXZc9fMBUwd", clientKey: "IW9j7Q3ML1njAgAoFj3sk4bd68S7wknSVNABiyIT")
         
         /*let twilioSID = "AC674d685ee4f3246548bc79a539056aca"
         let twilioSecret = "a10c9b4790dba27fa905597d35b3d4c2"
